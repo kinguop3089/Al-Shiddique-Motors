@@ -146,24 +146,6 @@ img.mySlides{
 .main-slider {
 	overflow: hidden;
 }
-.main-slider:before,
-.main-slider:after {
-	position: absolute;
-	bottom: -3vw;
-	width: 50%;
-	height: 8vw;
-	background-color: white;
-	z-index: 101;
-	content: '';
-}
-.main-slider:before {
-	left: 0;
-	transform: skewY(4.5deg);
-}
-.main-slider:after {
-	right: 0;
-	transform: skewY(-4.5deg);
-}
 .main-slider__item {
 	position: relative;
 	margin-bottom: 50px;
